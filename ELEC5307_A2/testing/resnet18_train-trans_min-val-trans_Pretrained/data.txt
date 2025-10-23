@@ -1,0 +1,29 @@
+python train_resnet18.py
+
+============================
+ Using device: cuda
+ Model: ResNet18
+============================
+
+Found 4542 training and 1135 validation images across 24 classes.
+
+Epoch [1/20] Train Loss: 1.7014 | Val Loss: 1.4703 | Train Acc: 51.41% | Val Acc: 57.27% | Time: 85.9s
+Epoch [2/20] Train Loss: 0.9766 | Val Loss: 0.9601 | Train Acc: 70.92% | Val Acc: 73.74% | Time: 89.9s
+Epoch [3/20] Train Loss: 0.7343 | Val Loss: 0.6151 | Train Acc: 77.90% | Val Acc: 83.96% | Time: 91.7s
+Epoch [4/20] Train Loss: 0.6211 | Val Loss: 0.7057 | Train Acc: 81.02% | Val Acc: 78.94% | Time: 92.9s
+Epoch [5/20] Train Loss: 0.5668 | Val Loss: 0.8268 | Train Acc: 83.58% | Val Acc: 78.50% | Time: 92.1s
+Epoch [6/20] Train Loss: 0.4937 | Val Loss: 0.8342 | Train Acc: 84.96% | Val Acc: 79.03% | Time: 92.4s
+Epoch [7/20] Train Loss: 0.4121 | Val Loss: 0.6545 | Train Acc: 87.41% | Val Acc: 82.38% | Time: 88.3s
+Epoch [8/20] Train Loss: 0.2231 | Val Loss: 0.2414 | Train Acc: 93.17% | Val Acc: 93.57% | Time: 86.3s
+Epoch [9/20] Train Loss: 0.1373 | Val Loss: 0.2410 | Train Acc: 95.71% | Val Acc: 92.69% | Time: 86.8s
+Epoch [10/20] Train Loss: 0.1285 | Val Loss: 0.1965 | Train Acc: 95.95% | Val Acc: 93.66% | Time: 86.6s
+Epoch [11/20] Train Loss: 0.1451 | Val Loss: 0.2621 | Train Acc: 95.33% | Val Acc: 93.83% | Time: 87.5s
+Epoch [12/20] Train Loss: 0.1849 | Val Loss: 0.3253 | Train Acc: 94.41% | Val Acc: 90.93% | Time: 95.7s
+Epoch [13/20] Train Loss: 0.1649 | Val Loss: 0.2834 | Train Acc: 95.07% | Val Acc: 92.60% | Time: 94.4s
+Epoch [14/20] Train Loss: 0.1465 | Val Loss: 0.2981 | Train Acc: 95.57% | Val Acc: 92.25% | Time: 95.5s
+Epoch [15/20] Train Loss: 0.1462 | Val Loss: 0.3363 | Train Acc: 95.35% | Val Acc: 90.57% | Time: 94.4s
+Epoch [16/20] Train Loss: 0.0634 | Val Loss: 0.1269 | Train Acc: 98.04% | Val Acc: 96.83% | Time: 94.3s
+Epoch [17/20] Train Loss: 0.0415 | Val Loss: 0.1544 | Train Acc: 98.86% | Val Acc: 95.68% | Time: 99.9s
+Epoch [18/20] Train Loss: 0.0410 | Val Loss: 0.1805 | Train Acc: 98.79% | Val Acc: 95.42% | Time: 97.2s
+Epoch [19/20] Train Loss: 0.0517 | Val Loss: 0.1840 | Train Acc: 98.63% | Val Acc: 94.63% | Time: 96.8s
+Epoch [20/20] Train Loss: 0.0523 | Val Loss: 0.1257 | Train Acc: 98.33% | Val Acc: 96.30% | Time: 97.0s
