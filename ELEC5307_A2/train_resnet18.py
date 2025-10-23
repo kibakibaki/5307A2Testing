@@ -52,10 +52,8 @@ val_transform = transforms.Compose([
 if __name__ == "__main__":
     torch.multiprocessing.freeze_support()
 
-    # 固定随机种子确保每次划分一致
     g = torch.Generator().manual_seed(42)
 
-    # Step 1: 先加载“干净”的基础 ImageFolder（不带 transform）
     base_dataset = datasets.ImageFolder(train_dir)
 
     num_classes = len(base_dataset.classes)
@@ -63,16 +61,13 @@ if __name__ == "__main__":
     val_size = int(0.2 * total_size)
     train_size = total_size - val_size
 
-    # Step 2: 固定划分索引（确保 train/val 一致）
     train_dataset, val_dataset = random_split(base_dataset, [train_size, val_size], generator=g)
 
-    # Step 3: 为 train 和 val 分别应用不同的 transform
     train_dataset.dataset = datasets.ImageFolder(train_dir, transform=train_transform)
     val_dataset.dataset   = datasets.ImageFolder(train_dir, transform=val_transform)
 
     print(f"Found {train_size} training and {val_size} validation images across {num_classes} classes.\n")
 
-    # Step 4: 创建 DataLoader
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True)
     val_loader   = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_workers=0, pin_memory=True)
 

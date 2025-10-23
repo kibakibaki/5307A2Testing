@@ -75,8 +75,7 @@ if __name__ == "__main__":
         model.fc = nn.Linear(model.fc.in_features, num_classes)
 
     elif args.model == "vgg16":
-        model = models.vgg16_bn(weights=models.VGG16_BN_Weights.IMAGENET1K_V1)  # ✅ 用带BN版本
-        # 替换最后分类层
+        model = models.vgg16_bn(weights=models.VGG16_BN_Weights.IMAGENET1K_V1)
         model.classifier[6] = nn.Linear(model.classifier[6].in_features, num_classes)
 
     elif args.model == "vgg19":
