@@ -1,0 +1,34 @@
+
+============================
+ Using device: cuda
+ Model: ResNet18
+============================
+
+Found 4542 training and 1135 validation images across 24 classes.
+
+Loading pretrained weights from resnet18-f37072fd.pth ...
+Loaded pretrained weights (missing=['fc.weight', 'fc.bias'], unexpected=[])
+Epoch [1/20] Train Loss: 1.5621 | Val Loss: 1.2143 | Train Acc: 54.38% | Val Acc: 64.05% | Time: 79.3s
+Epoch [2/20] Train Loss: 0.9533 | Val Loss: 0.8947 | Train Acc: 71.84% | Val Acc: 75.68% | Time: 84.0s
+Epoch [3/20] Train Loss: 0.7085 | Val Loss: 0.6808 | Train Acc: 79.35% | Val Acc: 80.26% | Time: 82.6s
+Epoch [4/20] Train Loss: 0.5572 | Val Loss: 0.6153 | Train Acc: 83.51% | Val Acc: 82.03% | Time: 78.8s
+Epoch [5/20] Train Loss: 0.5468 | Val Loss: 0.6451 | Train Acc: 83.20% | Val Acc: 82.20% | Time: 79.3s
+Epoch [6/20] Train Loss: 0.3956 | Val Loss: 0.4673 | Train Acc: 87.71% | Val Acc: 87.40% | Time: 81.7s
+Epoch [7/20] Train Loss: 0.3920 | Val Loss: 0.5478 | Train Acc: 87.96% | Val Acc: 86.26% | Time: 91.9s
+Epoch [8/20] Train Loss: 0.3824 | Val Loss: 0.7691 | Train Acc: 87.98% | Val Acc: 78.59% | Time: 91.1s
+Epoch [9/20] Train Loss: 0.3676 | Val Loss: 0.5579 | Train Acc: 88.57% | Val Acc: 84.14% | Time: 92.5s
+Epoch [10/20] Train Loss: 0.3423 | Val Loss: 0.5458 | Train Acc: 89.83% | Val Acc: 86.61% | Time: 90.9s
+Epoch [11/20] Train Loss: 0.1469 | Val Loss: 0.1714 | Train Acc: 95.62% | Val Acc: 94.80% | Time: 87.0s
+Epoch [12/20] Train Loss: 0.0803 | Val Loss: 0.1877 | Train Acc: 97.62% | Val Acc: 94.98% | Time: 87.5s
+Epoch [13/20] Train Loss: 0.0877 | Val Loss: 0.1690 | Train Acc: 97.53% | Val Acc: 94.89% | Time: 87.0s
+Epoch [14/20] Train Loss: 0.1105 | Val Loss: 0.3185 | Train Acc: 96.81% | Val Acc: 92.07% | Time: 86.9s
+Epoch [15/20] Train Loss: 0.1142 | Val Loss: 0.2511 | Train Acc: 96.79% | Val Acc: 93.57% | Time: 87.1s
+Epoch [16/20] Train Loss: 0.1425 | Val Loss: 0.2103 | Train Acc: 95.31% | Val Acc: 93.57% | Time: 87.2s
+Epoch [17/20] Train Loss: 0.0556 | Val Loss: 0.1200 | Train Acc: 98.33% | Val Acc: 96.21% | Time: 88.2s
+Epoch [18/20] Train Loss: 0.0290 | Val Loss: 0.1537 | Train Acc: 99.32% | Val Acc: 95.68% | Time: 86.9s
+Epoch [19/20] Train Loss: 0.0282 | Val Loss: 0.1147 | Train Acc: 99.23% | Val Acc: 96.56% | Time: 87.5s
+Epoch [20/20] Train Loss: 0.0311 | Val Loss: 0.1378 | Train Acc: 98.99% | Val Acc: 95.95% | Time: 87.0s
+
+✅ Training complete! Model saved to fruit_resnet18_pretrained.pth
+
+🕒 Total training time: 0h 28m 44s (1724.5 seconds)
