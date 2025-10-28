@@ -1,0 +1,11 @@
+2025-10-27 17:57:22,079 using args:
+2025-10-27 17:57:22,080 Namespace(cuda=True, output_path='./')
+2025-10-27 17:57:26,091 using args:
+2025-10-27 17:57:26,092 Namespace(cuda=True, output_path='./')
+2025-10-27 17:57:35,874 using args:
+2025-10-27 17:57:35,874 Namespace(cuda=True, output_path='./')
+2025-10-27 17:58:04,968 =======================================================
+2025-10-27 17:58:04,969 SUMMARY of Project2
+2025-10-27 17:58:04,969 The number of testing image is 5677
+2025-10-27 17:58:04,969 Accuracy of the network on the test images: 99.74 %
+2025-10-27 17:58:04,970 =======================================================

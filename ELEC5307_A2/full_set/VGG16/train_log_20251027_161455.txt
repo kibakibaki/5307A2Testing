@@ -1,0 +1,32 @@
+
+============================
+ Using device: cuda
+ Model: VGG16
+============================
+
+Loading pretrained weights from local file: vgg16_bn-6c64b313.pth
+✅ Loaded pretrained VGG16-BN weights (missing=['classifier.6.weight', 'classifier.6.bias'], unexpected=[])
+Epoch [1/20] Train Loss: 0.9339 | Val Loss: 0.1633 | Train Acc: 74.48% | Val Acc: 94.80% | Time: 123.5s
+Epoch [2/20] Train Loss: 0.1792 | Val Loss: 0.1163 | Train Acc: 94.36% | Val Acc: 96.48% | Time: 125.1s
+Epoch [3/20] Train Loss: 0.1061 | Val Loss: 0.1043 | Train Acc: 96.94% | Val Acc: 97.09% | Time: 128.9s
+Epoch [4/20] Train Loss: 0.0698 | Val Loss: 0.1273 | Train Acc: 97.82% | Val Acc: 96.48% | Time: 129.8s
+Epoch [5/20] Train Loss: 0.0537 | Val Loss: 0.0838 | Train Acc: 98.30% | Val Acc: 97.71% | Time: 133.3s
+Epoch [6/20] Train Loss: 0.0321 | Val Loss: 0.0755 | Train Acc: 98.94% | Val Acc: 97.97% | Time: 131.5s
+Epoch [7/20] Train Loss: 0.0200 | Val Loss: 0.0744 | Train Acc: 99.43% | Val Acc: 98.15% | Time: 144.2s
+Epoch [8/20] Train Loss: 0.0182 | Val Loss: 0.0682 | Train Acc: 99.58% | Val Acc: 98.15% | Time: 130.8s
+Epoch [9/20] Train Loss: 0.0185 | Val Loss: 0.0667 | Train Acc: 99.56% | Val Acc: 98.41% | Time: 130.4s
+Epoch [10/20] Train Loss: 0.0140 | Val Loss: 0.0633 | Train Acc: 99.71% | Val Acc: 98.41% | Time: 130.6s
+Epoch [11/20] Train Loss: 0.0130 | Val Loss: 0.0653 | Train Acc: 99.80% | Val Acc: 98.24% | Time: 130.5s
+Epoch [12/20] Train Loss: 0.0152 | Val Loss: 0.0644 | Train Acc: 99.69% | Val Acc: 98.41% | Time: 131.3s
+Epoch [13/20] Train Loss: 0.0115 | Val Loss: 0.0636 | Train Acc: 99.74% | Val Acc: 98.59% | Time: 130.7s
+Epoch [14/20] Train Loss: 0.0135 | Val Loss: 0.0629 | Train Acc: 99.69% | Val Acc: 98.50% | Time: 131.3s
+Epoch [15/20] Train Loss: 0.0141 | Val Loss: 0.0623 | Train Acc: 99.60% | Val Acc: 98.59% | Time: 131.8s
+Epoch [16/20] Train Loss: 0.0092 | Val Loss: 0.0657 | Train Acc: 99.85% | Val Acc: 98.68% | Time: 131.9s
+Epoch [17/20] Train Loss: 0.0122 | Val Loss: 0.0630 | Train Acc: 99.69% | Val Acc: 98.77% | Time: 132.0s
+Epoch [18/20] Train Loss: 0.0104 | Val Loss: 0.0594 | Train Acc: 99.78% | Val Acc: 98.59% | Time: 132.5s
+Epoch [19/20] Train Loss: 0.0114 | Val Loss: 0.0600 | Train Acc: 99.74% | Val Acc: 98.59% | Time: 132.0s
+Epoch [20/20] Train Loss: 0.0098 | Val Loss: 0.0591 | Train Acc: 99.85% | Val Acc: 98.68% | Time: 133.6s
+
+✅ Training complete! Model saved to fruit_vgg16_pretrained.pth
+
+🕒 Total training time: 0h 43m 46s (2626.8 seconds)

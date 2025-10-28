@@ -1,6 +1,3 @@
 ELEC5307_A2/dataset_zip
 ELEC5307_A2/train
-ELEC5307_A2/testing/vgg16_no-trans_NOPretrained/fruit_vgg16.pth
-ELEC5307_A2/testing/vgg16_train-trans_min-val-trans_BNPretrained/fruit_vgg16_pretrained.pth
-ELEC5307_A2\VGG16\vgg16_bn-6c64b313.pth
-ELEC5307_A2\VGG16\fruit_vgg16_pretrained.pth
+*.pth

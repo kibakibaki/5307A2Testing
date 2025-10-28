@@ -1,0 +1,40 @@
+Detected 24 classes: ['Apple', 'Avocado', 'Banana', 'Blackberry', 'Blueberry', 'Capsicum', 'Carrot', 'CherryTomato', 'Cucumber', 'Dragonfruit', 'Grape', 'Kiwifruit', 'Lemon', 'Lime', 'Mango', 'Orange', 'Papaya', 'Passionfruit', 'Peach', 'Pear', 'Pineapple', 'Raspberry', 'Strawberry', 'Watermelon']
+Epoch [1/20]: TrainLoss: 2.7063 | TrainAcc: 0.2098 | ValLoss: 2.3898 | ValAcc: 0.2667 | Time: 76.4s
+Saved new best model to ./project2.pth (val_acc=0.2667)
+Epoch [2/20]: TrainLoss: 2.2231 | TrainAcc: 0.3322 | ValLoss: 2.0297 | ValAcc: 0.3911 | Time: 84.9s
+Saved new best model to ./project2.pth (val_acc=0.3911)
+Epoch [3/20]: TrainLoss: 1.9478 | TrainAcc: 0.4058 | ValLoss: 1.7262 | ValAcc: 0.4613 | Time: 94.8s
+Saved new best model to ./project2.pth (val_acc=0.4613)
+Epoch [4/20]: TrainLoss: 1.6793 | TrainAcc: 0.4943 | ValLoss: 1.4655 | ValAcc: 0.5467 | Time: 81.6s
+Saved new best model to ./project2.pth (val_acc=0.5467)
+Epoch [5/20]: TrainLoss: 1.4557 | TrainAcc: 0.5457 | ValLoss: 1.3505 | ValAcc: 0.5840 | Time: 87.9s
+Saved new best model to ./project2.pth (val_acc=0.5840)
+Epoch [6/20]: TrainLoss: 1.2752 | TrainAcc: 0.6083 | ValLoss: 1.1884 | ValAcc: 0.6524 | Time: 89.4s
+Saved new best model to ./project2.pth (val_acc=0.6524)
+Epoch [7/20]: TrainLoss: 1.1536 | TrainAcc: 0.6413 | ValLoss: 1.2179 | ValAcc: 0.6489 | Time: 86.8s
+Epoch [8/20]: TrainLoss: 1.0210 | TrainAcc: 0.6826 | ValLoss: 1.0469 | ValAcc: 0.6942 | Time: 97.8s
+Saved new best model to ./project2.pth (val_acc=0.6942)
+Epoch [9/20]: TrainLoss: 0.9115 | TrainAcc: 0.7135 | ValLoss: 1.0010 | ValAcc: 0.7049 | Time: 95.1s
+Saved new best model to ./project2.pth (val_acc=0.7049)
+Epoch [10/20]: TrainLoss: 0.8215 | TrainAcc: 0.7447 | ValLoss: 0.9870 | ValAcc: 0.7076 | Time: 95.6s
+Saved new best model to ./project2.pth (val_acc=0.7076)
+Epoch [11/20]: TrainLoss: 0.7050 | TrainAcc: 0.7797 | ValLoss: 0.9190 | ValAcc: 0.7200 | Time: 92.4s
+Saved new best model to ./project2.pth (val_acc=0.7200)
+Epoch [12/20]: TrainLoss: 0.6120 | TrainAcc: 0.8076 | ValLoss: 0.9180 | ValAcc: 0.7458 | Time: 86.6s
+Saved new best model to ./project2.pth (val_acc=0.7458)
+Epoch [13/20]: TrainLoss: 0.5552 | TrainAcc: 0.8157 | ValLoss: 0.8403 | ValAcc: 0.7636 | Time: 83.5s
+Saved new best model to ./project2.pth (val_acc=0.7636)
+Epoch [14/20]: TrainLoss: 0.4887 | TrainAcc: 0.8442 | ValLoss: 0.9181 | ValAcc: 0.7404 | Time: 82.3s
+Epoch [15/20]: TrainLoss: 0.4240 | TrainAcc: 0.8660 | ValLoss: 0.7904 | ValAcc: 0.7804 | Time: 78.1s
+Saved new best model to ./project2.pth (val_acc=0.7804)
+Epoch [16/20]: TrainLoss: 0.3659 | TrainAcc: 0.8754 | ValLoss: 0.8067 | ValAcc: 0.7911 | Time: 77.4s
+Saved new best model to ./project2.pth (val_acc=0.7911)
+Epoch [17/20]: TrainLoss: 0.2872 | TrainAcc: 0.9110 | ValLoss: 0.6602 | ValAcc: 0.8080 | Time: 81.3s
+Saved new best model to ./project2.pth (val_acc=0.8080)
+Epoch [18/20]: TrainLoss: 0.2542 | TrainAcc: 0.9174 | ValLoss: 0.7586 | ValAcc: 0.7920 | Time: 84.5s
+Epoch [19/20]: TrainLoss: 0.2233 | TrainAcc: 0.9277 | ValLoss: 0.7675 | ValAcc: 0.7867 | Time: 79.5s
+Epoch [20/20]: TrainLoss: 0.2172 | TrainAcc: 0.9286 | ValLoss: 0.7655 | ValAcc: 0.8098 | Time: 76.5s
+Saved new best model to ./project2.pth (val_acc=0.8098)
+Training complete. Best Val Accuracy: 0.8098
+best validation accuracy: 0.8097777777777778
+final validation accuracy: 0.8097777777777778
