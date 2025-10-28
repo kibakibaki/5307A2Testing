@@ -1,0 +1,28 @@
+Epoch [1/20]: TrainLoss: 1.2355 | TrainAcc: 0.7096 | ValLoss: 0.2988 | ValAcc: 0.9280 | Time: 69.7s
+Saved new best model to ./project2.pth (val_acc=0.9280)
+Epoch [2/20]: TrainLoss: 0.2724 | TrainAcc: 0.9427 | ValLoss: 0.1573 | ValAcc: 0.9538 | Time: 64.4s
+Saved new best model to ./project2.pth (val_acc=0.9538)
+Epoch [3/20]: TrainLoss: 0.1322 | TrainAcc: 0.9776 | ValLoss: 0.1204 | ValAcc: 0.9644 | Time: 65.8s
+Saved new best model to ./project2.pth (val_acc=0.9644)
+Epoch [4/20]: TrainLoss: 0.0744 | TrainAcc: 0.9906 | ValLoss: 0.0804 | ValAcc: 0.9796 | Time: 69.7s
+Saved new best model to ./project2.pth (val_acc=0.9796)
+Epoch [5/20]: TrainLoss: 0.0475 | TrainAcc: 0.9954 | ValLoss: 0.0743 | ValAcc: 0.9796 | Time: 74.5s
+Epoch [6/20]: TrainLoss: 0.0362 | TrainAcc: 0.9980 | ValLoss: 0.0681 | ValAcc: 0.9804 | Time: 67.8s
+Saved new best model to ./project2.pth (val_acc=0.9804)
+Epoch [7/20]: TrainLoss: 0.0279 | TrainAcc: 0.9967 | ValLoss: 0.0630 | ValAcc: 0.9813 | Time: 68.4s
+Saved new best model to ./project2.pth (val_acc=0.9813)
+Epoch [8/20]: TrainLoss: 0.0210 | TrainAcc: 0.9987 | ValLoss: 0.0611 | ValAcc: 0.9804 | Time: 62.9s
+Epoch [9/20]: TrainLoss: 0.0181 | TrainAcc: 0.9989 | ValLoss: 0.0580 | ValAcc: 0.9840 | Time: 69.9s
+Saved new best model to ./project2.pth (val_acc=0.9840)
+Epoch [10/20]: TrainLoss: 0.0145 | TrainAcc: 0.9993 | ValLoss: 0.0606 | ValAcc: 0.9804 | Time: 72.8s
+Epoch [11/20]: TrainLoss: 0.0138 | TrainAcc: 0.9993 | ValLoss: 0.0541 | ValAcc: 0.9822 | Time: 73.4s
+Epoch [12/20]: TrainLoss: 0.0122 | TrainAcc: 0.9998 | ValLoss: 0.0545 | ValAcc: 0.9804 | Time: 72.9s
+Epoch [13/20]: TrainLoss: 0.0108 | TrainAcc: 0.9996 | ValLoss: 0.0523 | ValAcc: 0.9831 | Time: 73.5s
+Epoch [14/20]: TrainLoss: 0.0088 | TrainAcc: 0.9998 | ValLoss: 0.0538 | ValAcc: 0.9840 | Time: 74.4s
+Epoch [15/20]: TrainLoss: 0.0095 | TrainAcc: 0.9993 | ValLoss: 0.0640 | ValAcc: 0.9804 | Time: 74.4s
+Epoch [16/20]: TrainLoss: 0.0077 | TrainAcc: 0.9998 | ValLoss: 0.0531 | ValAcc: 0.9822 | Time: 72.7s
+Epoch [17/20]: TrainLoss: 0.0065 | TrainAcc: 1.0000 | ValLoss: 0.0484 | ValAcc: 0.9831 | Time: 73.7s
+Epoch [18/20]: TrainLoss: 0.0078 | TrainAcc: 0.9998 | ValLoss: 0.0507 | ValAcc: 0.9822 | Time: 73.4s
+Epoch [19/20]: TrainLoss: 0.0063 | TrainAcc: 1.0000 | ValLoss: 0.0501 | ValAcc: 0.9831 | Time: 74.3s
+Epoch [20/20]: TrainLoss: 0.0061 | TrainAcc: 0.9998 | ValLoss: 0.0439 | ValAcc: 0.9840 | Time: 74.1s
+Training complete. Best Val Accuracy: 0.9840
