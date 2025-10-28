@@ -26,3 +26,4 @@ Epoch [18/20]: TrainLoss: 0.0078 | TrainAcc: 0.9998 | ValLoss: 0.0507 | ValAcc: 
 Epoch [19/20]: TrainLoss: 0.0063 | TrainAcc: 1.0000 | ValLoss: 0.0501 | ValAcc: 0.9831 | Time: 74.3s
 Epoch [20/20]: TrainLoss: 0.0061 | TrainAcc: 0.9998 | ValLoss: 0.0439 | ValAcc: 0.9840 | Time: 74.1s
 Training complete. Best Val Accuracy: 0.9840
+.
